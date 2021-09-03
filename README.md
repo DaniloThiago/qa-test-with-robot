@@ -15,3 +15,13 @@ pip install robotframework-requests
 ```sh
 pip install faker
 ```
+
+### Run Tests
+```sh
+robot -d ./logs  ./specs/CreateCharacters.robot
+```
+
+### Run One Test
+```sh
+robot -d ./logs -i [TAG] ./specs/CreateCharacters.robot
+```
