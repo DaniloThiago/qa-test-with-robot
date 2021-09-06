@@ -1,4 +1,4 @@
-# QA with Pythin and Robotframework
+# QA with Pythin and Robot Framework
 Test automation project with Python and Robot Framework by [qaninja](https://qaninja.academy)
 
 ### Install Robot Framework
