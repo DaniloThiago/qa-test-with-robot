@@ -6,22 +6,27 @@ Test automation project with Python and Robotframework, carried out by[qaninja](
 pip installrobotframework
 ```
 
-### Install HTTP RequestsLibrary - Robotframework-requests
+### Install HTTP RequestsLibrary: Library aimed to provide HTTP api testing functionalities
 ```sh
 pip install robotframework-requests
 ```
 
-### Install Faker: package that generates fake data
+### Install Faker: Python package that generates fake data for you
 ```sh
 pip install faker
 ```
 
-### Run Tests
+### Install bson: Independent BSON codec for Python that doesn’t depend on MongoDB
 ```sh
-robot -d ./logs  ./specs/CreateCharacters.robot
+pip install bson
+```
+
+### Run All Tests
+```sh
+robot -d ./logs ./specs/
 ```
 
 ### Run One Test
 ```sh
-robot -d ./logs -i [TAG] ./specs/CreateCharacters.robot
+robot -d ./logs ./specs/CreateCharacters.robot
 ```
