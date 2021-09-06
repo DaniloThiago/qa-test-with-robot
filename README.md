@@ -1,9 +1,9 @@
 # QA with Pythin and Robotframework
-Test automation project with Python and Robotframework, carried out by[qaninja](https://qaninja.academy)
+Test automation project with Python and Robot Framework by [qaninja](https://qaninja.academy)
 
-### Install Robotframework
+### Install Robot Framework
 ```sh
-pip installrobotframework
+pip install robotframework
 ```
 
 ### Install HTTP RequestsLibrary: Library aimed to provide HTTP api testing functionalities
@@ -28,5 +28,5 @@ robot -d ./logs ./specs/
 
 ### Run One Test
 ```sh
-robot -d ./logs ./specs/CreateCharacters.robot
+robot -d ./logs ./specs/<name_file.robot>
 ```
